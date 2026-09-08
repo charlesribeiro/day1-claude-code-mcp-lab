@@ -1,0 +1,9 @@
+{
+  "mcpServers": {
+    "project-manager": {
+      "command": "npx",
+      "args": ["tsx", "src/index.ts"],
+      "cwd": "/home/charles/projects/day1-claude-code-mcp-lab"
+    }
+  }
+}
