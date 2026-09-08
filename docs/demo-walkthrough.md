@@ -84,3 +84,29 @@ The tested flow is:
         |
         v
     npm run typecheck
+
+## Visual Evidence
+
+### MCP Server Connected
+
+Claude Code successfully discovers the custom `project-manager` MCP server.
+
+![Project Manager MCP connected](evidence/01-mcp-connected.png)
+
+### MCP Tool Invocation
+
+Claude Code invokes the custom project-management MCP tools as part of the workflow.
+
+![MCP tool invocation](evidence/02-mcp-tool-call.png)
+
+### Custom Verification Command
+
+The project-scoped `/verify-project` command validates the repository configuration and implementation.
+
+![Verify project command](evidence/03-verify-project.png)
+
+### PostToolUse Hook
+
+Editing a TypeScript source file triggers the configured `PostToolUse` hook and automatically runs the TypeScript typecheck.
+
+![PostToolUse typecheck hook](evidence/04-posttooluse-hook.png)
