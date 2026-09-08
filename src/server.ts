@@ -9,6 +9,7 @@ import {
   type TaskStatus,
 } from "./db.js";
 
+// This McpServer exposes the project-management tools (create_task, list_tasks, update_task).
 export const server = new McpServer({
   name: "project-manager",
   version: "1.0.0",
