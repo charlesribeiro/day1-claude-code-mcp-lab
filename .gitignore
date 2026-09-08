@@ -1,0 +1,8 @@
+node_modules/
+dist/
+tasks.db
+tasks.db-shm
+tasks.db-wal
+.env
+.DS_Store
+*.log
